@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Aaron Gaba - Projects</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:image" content="http://ajgaba.com/img/ajgaba_banner_for_hire.jpg" />
+
+</head>
+<body>
+<div class="container">
+
+    <section class="header">
+        <h2 class="title undecorated-link"><a href="index.html">Aaron Gaba</a></h2>
+    </section>
+
+    <div class="navcontainer">
+        <a href="Aaron%20Gaba%20Resume.pdf">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="https://github.com/ajgabz">GitHub</a>
+        <a href="contact.html">Contact Me</a>
+    </div>
+
+    <hr>
+
+    <h4>Projects</h4>
+
+    <div class="project">
+        <h6>
+            <span class="project-title">McGill University Work Study Database & Web Client</span>
+            <span class="project-links">(<a href="https://github.com/ajgabz/mcgill-workstudy">GitHub</a> &mdash; <a href="https://mcgill-workstudy.herokuapp.com/">Live Demo</a>)</span>
+        </h6>
+
+    <div class="row">
+        <div class="twelve columns">
+            <ul>
+                <li>Engineered a database-powered solution for McGill University’s Work Study application list as a replacement for their
+                    <a href="http://www.is.mcgill.ca/studentaid/workstudy/StudentList.htm">140-page static CSV file posted online</a>.
+                </li>
+
+                <li>Scraped and sanitized 6,370 public financial aid records from McGill’s servers.</li>
+
+                <li>Modeled financial aid (work study) data and created the corresponding SQL schema.</li>
+
+                <li>Constructed a database API using stored procedures to abstract away the underlying SQL internals
+                    from client applications.</li>
+
+                <li>Implemented a full stack web client using Flask, AngularJS, and Bootstrap, which allows students and
+                    employers to easily view the status of Work Study applications.</li>
+
+                <li>Languages Used: Python, SQL & pl/pgSQL, HTML, JavaScript, CSS</li>
+
+            </ul>
+
+            <div class="screenshot">
+                <a target="_blank" href="img/work_study.png">
+                    <img src="img/thumbnails/work_study_thumbnail.png" alt="Work Study Web Client Screenshot">
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
+    <div class="row">
+        <div class="twelve columns">&nbsp;</div>
+    </div>
+
+
+    <div class="project">
+        <h6><span class="project-title">LilLink</span>
+            <span class="project-links">(<a href="https://github.com/ajgabz/LilLink">GitHub</a> &mdash; <a href="https://lil-link.herokuapp.com/">Live Demo</a>)</span></h6>
+        </h6>
+    <div class="row">
+        <div class="twelve columns">
+            <ul>
+                <li>Designed and deployed a minimalistic URL shortener.</li>
+                <li>Implemented a RESTful API for handling URL keys and values through a lightweight Flask backend.</li>
+                <li>Employed a Redis datastore for the rapid generation and retrieval of URL keys and values.</li>
+                <li>Languages Used: Python, HTML, CSS</li>
+            </ul>
+            <div class="screenshot">
+                <a target="_blank" href="img/lil_link.png">
+                    <img src="img/thumbnails/lil_link_thumbnail.png" alt="LilLink Screenshot">
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="row">
+        <div class="twelve columns">&nbsp;</div>
+    </div>
+
+    <div class="project">
+        <h6><span class="project-title">TalkingKeyboard</span>
+            <span class="project-links">(<a href="https://github.com/ajgabz/talking-keyboard">GitHub</a> &mdash; <a href="https://ajgabz.github.io/talking-keyboard/">Live Demo</a>)</span></h6>
+    <div class="row">
+        <div class="twelve columns">
+            <ul>
+                <li>Designed a multimedia educational tool for learning touch-typing; demonstrates front-end technologies.</li>
+                <li>Designed responsively using CSS3 to ensure that TalkingKeyboard is usable across all devices.</li>
+                <li>Composed animation and graphical effects through the coupled use of jQuery and CSS.</li>
+                <li>Incorporated efficient cross-browser speech synthesis through the use of the ResponsiveVoice API.</li>
+                <li>Languages Used: JavaScript, HTML, CSS</li>
+            </ul>
+            <div class="screenshot">
+                <a target="_blank" href="img/talking_keyboard.png">
+                    <img src="img/thumbnails/talking_keyboard_thumbnail.png" alt="TalkingKeyboard Screenshot">
+                </a>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <div class="row">
+        <div class="twelve columns">&nbsp;</div>
+    </div>
+
+
+    <div class="project">
+        <h6><span class="project-title">Huffman Encoder</span>
+            <span class="project-links">(<a href="https://github.com/ajgabz/HuffmanCoding">GitHub</a>)</span>
+        </h6>
+    <div class="row">
+        <div class="twelve columns">
+            <ul>
+                <li>Implemented a Java version of the Huffman compression algorithm.</li>
+                <li>Utilized Multisets from Google’s Guava suite to allow efficient tree-building of Unicode data.</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+
+    <div class="project">
+        <h6 class="project-title">Comp 421 (Database Systems) Project</h6>
+        <div class="row">
+            <div class="twelve columns">
+                <ul>
+                    <li>Led a four-person team on the development of a medium-scale database system to handle the ticketing
+                        and film scheduling needs for a movie theatre.</li>
+                    <li>Implemented a graphical network front-end application in Java using Swing and the JDBC API.</li>
+                    <li>Designed an XML schema to incorporate semi-structured XML data from IMDB.</li>
+                    <li>Wrote extensive documentation about the database system.</li>
+                    <!--<li>Constructed the backend database in PostgreSQL, which could handle structured data and semi-structured-->
+                        <!--(XML) data.</li>-->
+
+
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="four columns">
+                <div class="screenshot">
+                    <a target="_blank" href="img/comp_421_main_menu.png">
+                        <img src="img/thumbnails/comp_421_main_menu_thumbnail.png" alt="COMP 421 Project - Main Menu">
+                    </a>
+                </div>
+            </div>
+            <div class="eight columns">
+                <div class="screenshot">
+                    <a target="_blank" href="img/comp_421_find_showtimes.png">
+                        <img src="img/thumbnails/comp_421_find_showtimes_thumbnail.png" alt="COMP 421 Project - Find Showtimes">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+</body>
+</html>
